@@ -1,5 +1,5 @@
 .accountItems {
-  background: url(../../../public/assets/img/shopimg.png) no-repeat center bottom/ cover;
+  background: url(/assets/img/shopimg.png) no-repeat center bottom/ cover;
   padding: 5rem 0;
   margin-bottom: 4rem;
 }

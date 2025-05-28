@@ -1,5 +1,5 @@
 .categoryItems {
-  background: url(../../public/assets/img/shopimg.png) no-repeat center bottom/ cover;
+  background: url(/assets/img/shopimg.png) no-repeat center bottom/ cover;
   padding: 7.5rem 0;
   margin-bottom: 2rem;
 }
