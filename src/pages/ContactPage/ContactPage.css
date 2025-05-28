@@ -1,0 +1,228 @@
+.textCenter {
+  text-align: center;
+}
+
+.contactSubTitle {
+  font: 2.25rem "Poppins-SemiBold", sans-serif;
+  margin-top: 3rem;
+}
+
+.contactSubText {
+  font: 1rem "Poppins-Regular", sans-serif;
+  color: #9f9f9f;
+  width: 100%;
+  max-width: 40rem;
+  margin-inline: auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.contactMainBox {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 0 1rem;
+}
+
+.leftSideItems {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contactIcon {
+  width: 1.375rem;
+  height: 1.724rem;
+  flex-shrink: 0;
+}
+
+.leftSideTexts {
+  margin: 0 0 2.6rem 1.875rem;
+}
+
+.contactAddressTitle {
+  font: 1.5rem "Poppins-Medium", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.contactAddressText {
+  font: 1rem "Poppins-Regular", sans-serif;
+  color: #9f9f9f;
+  width: 100%;
+  max-width: 13.25rem;
+}
+
+.contactLabel {
+  font: 1rem "Poppins-Medium", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.contactInputItem {
+  font: 1rem "Poppins-Regular", sans-serif;
+  color: #333;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 30rem;
+  height: 3.5rem;
+  margin: 0.5rem 0 1.5rem;
+  padding: 0.8rem 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contactInputItem:focus {
+  border-color: #b88e2f;
+  box-shadow: 0 0 0.5rem rgba(184, 142, 47, 0.3);
+}
+
+.messageInput {
+  resize: vertical;
+  height: 8rem;
+}
+
+.contactSubmit {
+  font: 1rem "Poppins-Regular", sans-serif;
+  border: none;
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 3rem;
+  color: white;
+  background-color: #b88e2f;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contactSubmit:hover {
+  background-color: #a07a28;
+}
+
+@media (max-width: 768px) {
+  .contactSubTitle {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+
+  .contactSubText {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+  }
+
+  .contactMainBox {
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .leftSideItems {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 20rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contactIcon {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.8rem;
+  }
+
+  .leftSideTexts {
+     margin: 0 0 1.5rem 0;
+     width: calc(100% - 2rem);
+  }
+
+  .contactAddressTitle {
+     font-size: 1.3rem;
+  }
+  
+  .contactAddressText {
+     font-size: 0.9rem;
+     max-width: none;
+  }
+
+  .contactLabel {
+     margin-bottom: 0.8rem;
+  }
+  
+  .contactInputItem {
+    font-size: 0.9rem;
+    height: 3rem;
+    margin: 0.3rem 0 1rem;
+    padding: 0.6rem 0.8rem;
+    max-width: 100%;
+  }
+
+  .messageInput {
+    height: 6rem;
+  }
+  
+  .contactSubmit {
+     width: 8rem;
+     height: 2.5rem;
+     font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contactSubTitle {
+    font-size: 2rem;
+  }
+
+  .contactSubText {
+    font-size: 0.95rem;
+  }
+
+  .contactMainBox {
+    gap: 2rem;
+  }
+
+  .leftSideTexts {
+     margin-left: 1.5rem;
+     margin-bottom: 2rem;
+  }
+
+  .contactIcon {
+    width: 1.3rem;
+    height: 1.6rem;
+  }
+
+  .contactAddressTitle {
+    font-size: 1.4rem;
+  }
+
+  .contactAddressText {
+     font-size: 0.95rem;
+  }
+
+  .contactInputItem {
+    max-width: 25rem;
+  }
+
+  .messageInput {
+    height: 8rem;
+  }
+
+   .contactSubmit {
+     width: 12rem;
+     height: 3rem;
+     font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 1025px) {
+   .leftSideTexts {
+     margin-left: 1.875rem;
+     margin-bottom: 2.6rem;
+   }
+
+   .contactInputItem {
+     max-width: 30rem;
+   }
+}

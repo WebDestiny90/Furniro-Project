@@ -1,0 +1,189 @@
+.descriptionContainer {
+  border-top: 2px solid #d9d9d9;
+  margin-top: 7rem;
+  padding: 0 1rem;
+}
+
+.descriptionTitleBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.descriptionFirstTitle,
+.descriptionSecondTitle,
+.descriptionThirdTitle {
+  font: 1.5rem "Poppins-Regular", sans-serif;
+  color: #9f9f9f;
+}
+
+.descriptionTextBox {
+  width: 100%;
+  max-width: 64rem;
+  position: relative;
+  min-height: 6.25rem; /* 100px */
+  transition: min-height 0.3s ease-in-out;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.descriptionFirstText,
+.descriptionSecondText,
+.descriptionThirdText {
+  font: 1rem "Poppins-Regular", sans-serif;
+  text-align: justify;
+  color: #9f9f9f;
+  margin-top: 2rem;
+  line-height: 1.6;
+}
+
+.descriptionSecondText {
+  list-style: circle;
+  padding-bottom: 3rem;
+}
+
+.descriptionTitleBox h2 {
+  cursor: pointer;
+}
+
+.descriptionTitleBox h2.active {
+  font-weight: bold;
+  color: #000;
+}
+
+.descriptionTitleBox button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font: 1.5rem "Poppins-Regular", sans-serif;
+  color: #9f9f9f;
+  transition: color 0.2s, font-weight 0.2s;
+  padding: 0.5rem 1rem;
+}
+
+.descriptionTitleBox button:hover {
+  color: #b88e2f;
+  transition: color 0.2s;
+}
+
+.descriptionTitleBox button.active {
+  font-weight: bold;
+  color: #000;
+  border-bottom: 2px solid #b88e2f;
+}
+
+.descriptionImages {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.descriptionImageItem {
+  width: 100%;
+  max-width: 25rem;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.descriptionImageItem:hover {
+  transform: scale(1.02);
+}
+
+.tabContentFade {
+  opacity: 0;
+  transform: translateY(1.25rem); /* 20px */
+  animation: fadeInTab 0.4s forwards;
+}
+
+@keyframes fadeInTab {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .descriptionContainer {
+    margin-top: 3rem;
+  }
+
+  .descriptionTitleBox {
+    margin-top: 1.5rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .descriptionTitleBox button {
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .descriptionFirstText,
+  .descriptionSecondText,
+  .descriptionThirdText {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    text-align: left;
+  }
+
+  .descriptionImages {
+    margin-top: 1.5rem;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .descriptionImageItem {
+    width: 90%;
+    max-width: 20rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .descriptionContainer {
+    margin-top: 4rem;
+  }
+
+  .descriptionTitleBox {
+    margin-top: 2rem;
+    gap: 1.5rem;
+  }
+
+  .descriptionTitleBox button {
+    font-size: 1.2rem;
+  }
+
+  .descriptionFirstText,
+  .descriptionSecondText,
+  .descriptionThirdText {
+    font-size: 0.95rem;
+    margin-top: 1.5rem;
+  }
+
+  .descriptionImages {
+    margin-top: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .descriptionImageItem {
+     width: 45%;
+     max-width: 25rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .descriptionImageItem {
+     width: 40%;
+     max-width: 25rem;
+  }
+}

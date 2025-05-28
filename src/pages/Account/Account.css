@@ -1,0 +1,258 @@
+.accountItems {
+  background: url(../../../public/assets/img/shopimg.png) no-repeat center bottom/ cover;
+  padding: 5rem 0;
+  margin-bottom: 4rem;
+}
+
+.logoImage {
+  display: block;
+  margin: auto;
+}
+
+.accountTitle {
+  color: #000;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.accountTextsBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeText {
+  color: #000;
+  font-size: 1rem;
+  font-family: "Poppins-Medium", sans-serif;
+}
+
+.arrowImage {
+  margin-inline: 6px;
+}
+
+.accountText {
+  color: #000;
+  font-size: 1rem;
+  font-family: "Poppins-Light", sans-serif
+}
+
+.accountContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.loginTitle,
+.registerTitle {
+  font: 2.25rem "Poppins-SemiBold", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.loginInputs,
+.registerForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.userNameLabel,
+.userCheckLabel {
+  font: 1rem "Poppins-Medium", sans-serif;
+  margin-bottom: 1.3rem;
+}
+
+.userNameinput {
+  font: 1rem "Poppins-Regular", sans-serif;
+  color: #9f9f9f;
+  outline: none;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  width: 26rem;
+  height: 4.688rem;
+  margin-bottom: 2rem;
+  padding-inline: 1rem;
+}
+
+.rememberInput {
+  display: flex;
+  align-items: center;
+}
+
+.userCheckLabel {
+  margin: 0 0 0 1.313rem;
+  /* margin-left: 1.313rem; */
+}
+
+.userCheckinput {
+  width: 22px;
+  height: 22px;
+}
+
+.logInButton,
+.registerButton {
+  font: 1.25rem "Poppins-Regular", sans-serif;
+  border: 2px solid #000;
+  border-radius: 15px;
+  background-color: transparent;
+  width: 13.438rem;
+  height: 4rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.registerText,
+.registerSecondText {
+  font: 1rem "Poppins-Light", sans-serif;
+  text-align: justify;
+  width: 28rem;
+}
+
+.registerText {
+  margin-bottom: 1.125rem;
+}
+
+.registerButton {
+  margin: 3.6rem 0 0rem;
+}
+
+.authWrapper {
+  display: flex;
+  width: 100%;
+  min-height: 630px;
+  position: relative;
+  overflow: hidden;
+}
+
+.furnitureImage {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  width: 50%;
+}
+
+.furnitureImage img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.furnitureImage.left {
+  left: 0;
+}
+
+.furnitureImage.right {
+  left: 50%;
+}
+
+.formSection {
+  flex: 1;
+  padding: 2rem;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  width: 50%;
+}
+
+.formSection.left {
+  left: 0;
+}
+
+.formSection.right {
+  left: 50%;
+}
+
+.toggleFormButton {
+  background: none;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.toggleFormButton:hover {
+  color: #666;
+}
+
+.loginBox,
+.registerBox {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.registerInfo {
+  margin-top: 2rem;
+}
+
+.backToLoginContainer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.backToLoginButton {
+  font: 1.25rem "Poppins-Regular", sans-serif;
+  border: 2px solid #000;
+  border-radius: 15px;
+  background-color: transparent;
+  width: 13.438rem;
+  height: 4rem;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s ease;
+  color: #000;
+}
+
+.backToLoginButton:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .authWrapper {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .furnitureImage {
+    display: none;
+  }
+
+  .formSection {
+    position: relative;
+    width: 100%;
+    left: 0;
+    padding: 1rem;
+  }
+
+  .formSection.left,
+  .formSection.right {
+    left: 0;
+  }
+
+  .loginInputs,
+  .registerForm {
+    width: 100%;
+  }
+
+  .userNameinput {
+    width: 100%;
+  }
+
+  .loginBox,
+  .registerBox {
+    width: 100%;
+  }
+
+  .registerText,
+  .registerSecondText {
+    width: 100%;
+  }
+}

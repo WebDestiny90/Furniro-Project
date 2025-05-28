@@ -1,0 +1,137 @@
+.blogMainItems {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.blogInfoBox {
+  display: flex;
+  align-items: baseline;
+  margin: 1.063rem 0 0.938rem;
+  flex-wrap: wrap;
+}
+
+.blogIcon {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  flex-shrink: 0;
+  margin-right: 0.3rem;
+  vertical-align: middle;
+  position: relative;
+  top: 0.1rem;
+}
+
+.blogInfo,
+.blogCategoryLinks {
+  font: 1rem "Poppins-Regular", sans-serif;
+  color: #9f9f9f;
+  margin-left: 0;
+  vertical-align: middle;
+}
+
+.blogInfo:not(:last-child) {
+  margin-right: 1.375rem;
+}
+
+.blogSubTitle {
+  font: 1.875rem "Poppins-Medium", sans-serif;
+  color: #000;
+  margin-bottom: 0.75rem;
+}
+
+.blogSubText {
+  font: 0.938rem/150% "Poppins-Regular", sans-serif;
+  text-align: justify;
+  color: #9f9f9f;
+  width: 100%;
+  max-width: 51rem;
+  margin-bottom: 3rem;
+}
+
+.blogRightTitle {
+  font: 1.5rem "Poppins-Medium", sans-serif;
+  margin-bottom: 2.063rem;
+}
+
+.blogCategoryLinks {
+  display: block;
+  margin-left: 0;
+  margin-bottom: 1.5rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.blogCategoryLinks:hover {
+  color: #b88e2f;
+}
+
+@media (max-width: 768px) {
+  .blogMainItems {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .blogInfoBox {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0rem 1rem;
+  }
+
+  .blogInfo:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .blogSubTitle {
+    font-size: 1.5rem;
+  }
+
+  .blogSubText {
+    font-size: 0.9rem;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .blogMainItems {
+    gap: 1.5rem;
+  }
+
+  .blogInfoBox {
+    gap: 0.5rem 0.8rem;
+  }
+
+  .blogSubTitle {
+    font-size: 1.7rem;
+  }
+
+  .blogSubText {
+    font-size: 0.9rem;
+  }
+
+  .blogRightTitle {
+    margin-bottom: 1.2rem;
+  }
+
+  .blogCategoryLinks {
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .blogSubText {
+    font-size: 0.938rem;
+  }
+}
+
+/* Стили для изображений внутри блога */
+.blogMainItems img {
+  max-width: 100%; /* Изображение не превышает ширину родительского контейнера */
+  height: auto; /* Сохраняет пропорции изображения */
+  display: block; /* Убирает лишние пробелы под изображением */
+  margin-bottom: 1.5rem; /* Отступ снизу, используем rem */
+  border-radius: 0.5rem; /* Небольшое скругление углов */
+}

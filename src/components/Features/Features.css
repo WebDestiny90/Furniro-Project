@@ -1,0 +1,70 @@
+.featuresbox {
+  background-color: #faf3ea;
+  padding-block: 4rem;
+  margin-top: 6rem;
+}
+
+.featuresContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.featuresImage {
+  width: 60px;
+  height: 60px;
+}
+
+.featuresTitle {
+  font: 1.563rem/150% "Poppins-SemiBold", sans-serif;
+  color: #242424;
+}
+
+.featuresDescription {
+  font: 1.25rem/150% "Poppins-Medium", sans-serif;
+  color: #898989;
+}
+
+@media (max-width: 767px) {
+  .featuresbox {
+    padding-block: 2rem;
+    margin-top: 2rem;
+  }
+
+  .features {
+    flex-direction: column;
+    text-align: center;
+    gap: 5px; 
+  }
+
+  .featuresImage {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .featuresTitle {
+    font-size: 0.8rem;
+  }
+  
+  .featuresDescription {
+    font-size: 0.6rem;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

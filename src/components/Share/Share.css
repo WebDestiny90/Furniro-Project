@@ -1,0 +1,19 @@
+.shareSectionTexts {
+  text-align: center;
+}
+
+.shareSectionText {
+  margin-block: 3rem 0.5rem;
+  font: 600 1.25rem "Poppins-SemiBold", sans-serif;
+  color: #616161;
+}
+
+.shareSectionTitle {
+  font: 700 2.5rem/120% "Poppins-Bold", sans-serif;
+  color: #3a3a3a;
+}
+
+.shareSectionImageItem {
+  width: 100%;
+  height: 100%;
+}

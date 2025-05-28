@@ -1,0 +1,180 @@
+.footer {
+  border-top: 1px solid #c0bfbf;
+  padding: 5rem 0;
+  margin-top: 3rem;
+}
+
+.footerItems {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footerTitle {
+  font: 1.5rem "Poppins-Bold", sans-serif;
+  margin-bottom: 3.125rem;
+}
+
+.footerColorGray {
+  color: #9f9f9f;
+}
+
+.footerAdress {
+  max-width: 17.8rem;
+  font: 1rem "Poppins-Regular", sans-serif;
+}
+
+.footerLinkText,
+.footerHelpText,
+.footerNewsText {
+  margin-bottom: 3rem;
+}
+
+.footerLinkText,
+.footerLinksItems,
+.footerHelpText,
+.footerNewsText {
+  font: 1rem "Poppins-Medium", sans-serif;
+}
+
+.footerLinksItems {
+  display: block;
+  width: fit-content;
+  transition: all 0.3s ease-in-out;
+}
+
+.footerLinksItems,
+.footerHelpLinksItems:not(:last-child) {
+  margin-bottom: 2.8rem;
+}
+
+.footerLinksItems:hover {
+  color: var(--primary, #b88e2f);
+}
+
+.footerInput {
+  font: 0.875rem "Poppins-Regular", sans-serif;
+  outline: none;
+  border-bottom: 1px solid #000;
+  margin-right: 10px;
+  max-width: 12.5rem;
+}
+
+.subscribeButton {
+  font: 0.875rem "Poppins-Medium", sans-serif;
+  border-bottom: 1px solid #000;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.footerEnd {
+  font: 1rem "Poppins-Regular", sans-serif;
+  border-top: 1px solid #c0bfbf;
+  display: block;
+  padding: 30px 0 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .footerItems {
+    gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .footer {
+    padding: 3rem 0;
+  }
+  
+  .footerItems {
+    justify-content: flex-start;
+  }
+  
+  .footerTitle {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 2.5rem 0;
+  }
+  
+  .footerItems {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .footerAdress {
+    max-width: 100%;
+  }
+  
+  .footerInput {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer {
+    padding: 2rem 0;
+    margin-top: 2rem;
+  }
+  
+  .footerTitle {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footerLinkText,
+  .footerHelpText,
+  .footerNewsText {
+    margin-bottom: 2rem;
+  }
+  
+  .footerLinksItems,
+  .footerHelpLinksItems:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+  
+  .footerEnd {
+    padding: 20px 0 0;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding: 1rem 0;
+  }
+  
+  .footerTitle {
+    font-size: 1.1rem;
+  }
+
+  .footerLinkText,
+  .footerHelpText,
+  .footerNewsText {
+    margin-bottom: 1rem;
+}
+  
+  .footerLinkText,
+  .footerLinksItems,
+  .footerHelpText,
+  .footerNewsText {
+    font-size: 0.7rem;
+  }
+
+  .footerLinksItems,
+  .footerHelpLinksItems:not(:last-child) {
+    margin-bottom: 1.3rem;
+}
+  
+  .footerInput {
+    font-size: 0.8rem;
+  }
+  
+  .subscribeButton {
+    font-size: 0.8rem;
+  }
+}
+

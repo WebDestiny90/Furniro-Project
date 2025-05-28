@@ -1,0 +1,279 @@
+.CheckOutTotalRightSide {
+  width: 38rem;
+}
+
+.CheckOutTotalProductInfoBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 100px;
+  border-bottom: 2px solid #9f9f9f;
+}
+
+.CheckOutTotalProductTitle,
+.CheckOutTotalSubTotal {
+  font: 1.5rem "Poppins-Medium", sans-serif;
+  color: #000;
+}
+
+.CheckOutTotalProductNamesBox {
+  max-height: 150px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.CheckOutTotalProductNamesBox::-webkit-scrollbar {
+  width: 5px;
+}
+
+.CheckOutTotalProductNamesBox::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.CheckOutTotalProductNamesBox::-webkit-scrollbar-thumb {
+  background: var(--primary, #b88e2f);
+  border-radius: 10px;
+}
+
+.CheckOutTotalProductNames {
+  display: flex;
+  align-items: center;
+}
+
+.CheckOutTotalProductNameItem {
+  margin-block: 0.875rem;
+  width: 100%;
+  max-width: 153px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #9f9f9f;
+}
+
+.CheckOutTotalFont,
+.CheckOutTotalProductPrice,
+.productSubtotalPrice {
+  font: 1rem "Poppins-Regular", sans-serif;
+}
+
+.CheckOutTotalProductNameItem {
+  color: #9f9f9f;
+  margin-right: 11px;
+}
+
+.CheckOutTotalProductQuantity {
+  font: 0.75rem "Poppins-Medium", sans-serif;
+}
+
+.CheckOutTotalProductPriceBox p:not(:last-child) {
+  margin-bottom: 0.875rem;
+}
+
+.CheckOutTotalProductPrice,
+.productSubtotalPrice {
+  font-family: "Poppins-Light", sans-serif;
+}
+
+.CheckOutTotalProductTotal {
+  font: 1.5rem "Poppins-Bold", sans-serif;
+  color: var(--primary, #b88e2f);
+}
+
+.CheckOutTotalProductPriceBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.CheckOutTotalBankLabel {
+  font: 1rem "Poppins-Medium", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  color: #9f9f9f;
+}
+
+.CheckOutTotalCashInput {
+  margin-right: 1rem;
+  accent-color: #000;
+}
+
+.CheckOutTotalCashDescription {
+  font: 1rem "Poppins-Light", sans-serif;
+  text-align: justify;
+  color: #9f9f9f;
+  margin-block: 1.5rem;
+}
+
+.CheckOutTotalCheckOutButton {
+  font: 1.25rem "Poppins-Medium", sans-serif;
+  background-color: transparent;
+  padding: 1rem 6rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/* Адаптивные стили */
+@media screen and (max-width: 1200px) {
+  .CheckOutTotalRightSide {
+    width: 100%;
+    max-width: 38rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .CheckOutTotalProductTitle,
+  .CheckOutTotalSubTotal {
+    font-size: 1.3rem;
+  }
+
+  .CheckOutTotalProductTotal {
+    font-size: 1.3rem;
+  }
+
+  .CheckOutTotalCheckOutButton {
+    padding: 0.9rem 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .CheckOutTotalProductInfoBox {
+    min-height: 80px;
+  }
+
+  .CheckOutTotalProductTitle,
+  .CheckOutTotalSubTotal {
+    font-size: 1.2rem;
+  }
+
+  .CheckOutTotalProductNamesBox {
+    max-height: 120px;
+  }
+
+  .CheckOutTotalProductNameItem {
+    max-width: 120px;
+  }
+
+  .CheckOutTotalFont,
+  .CheckOutTotalProductPrice,
+  .productSubtotalPrice {
+    font-size: 0.9rem;
+  }
+
+  .CheckOutTotalProductTotal {
+    font-size: 1.2rem;
+  }
+
+  .CheckOutTotalBankLabel {
+    font-size: 0.9rem;
+  }
+
+  .CheckOutTotalCashDescription {
+    font-size: 0.9rem;
+    margin-block: 1.2rem;
+  }
+
+  .CheckOutTotalCheckOutButton {
+    font-size: 1.1rem;
+    padding: 0.8rem 4rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .CheckOutTotalProductInfoBox {
+    min-height: 70px;
+  }
+
+  .CheckOutTotalProductTitle,
+  .CheckOutTotalSubTotal {
+    font-size: 1.1rem;
+  }
+
+  .CheckOutTotalProductNamesBox {
+    max-height: 100px;
+  }
+
+  .CheckOutTotalProductNameItem {
+    max-width: 100px;
+    font-size: 0.9rem;
+  }
+
+  .CheckOutTotalFont,
+  .CheckOutTotalProductPrice,
+  .productSubtotalPrice {
+    font-size: 0.85rem;
+  }
+
+  .CheckOutTotalProductQuantity {
+    font-size: 0.7rem;
+  }
+
+  .CheckOutTotalProductTotal {
+    font-size: 1.1rem;
+  }
+
+  .CheckOutTotalBankLabel {
+    font-size: 0.85rem;
+  }
+
+  .CheckOutTotalCashDescription {
+    font-size: 0.85rem;
+    margin-block: 1rem;
+  }
+
+  .CheckOutTotalCheckOutButton {
+    font-size: 1rem;
+    padding: 0.7rem 3rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .CheckOutTotalProductInfoBox {
+    min-height: 60px;
+  }
+
+  .CheckOutTotalProductTitle,
+  .CheckOutTotalSubTotal {
+    font-size: 1rem;
+  }
+
+  .CheckOutTotalProductNamesBox {
+    max-height: 90px;
+  }
+
+  .CheckOutTotalProductNameItem {
+    max-width: 80px;
+    font-size: 0.8rem;
+  }
+
+  .CheckOutTotalFont,
+  .CheckOutTotalProductPrice,
+  .productSubtotalPrice {
+    font-size: 0.8rem;
+  }
+
+  .CheckOutTotalProductQuantity {
+    font-size: 0.65rem;
+  }
+
+  .CheckOutTotalProductTotal {
+    font-size: 1rem;
+  }
+
+  .CheckOutTotalBankLabel {
+    font-size: 0.8rem;
+  }
+
+  .CheckOutTotalCashDescription {
+    font-size: 0.8rem;
+    margin-block: 0.8rem;
+  }
+
+  .CheckOutTotalCheckOutButton {
+    font-size: 0.9rem;
+    padding: 0.6rem 2.5rem;
+  }
+}

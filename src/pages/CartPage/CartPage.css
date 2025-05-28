@@ -1,0 +1,281 @@
+.cartPageMain {
+  display: flex;
+}
+
+.cartPageProductsContainer {
+  width: 58rem;
+  margin-top: 2rem;
+}
+
+.cartPageProductsDescrip {
+  background-color: #f9f1e7;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0;
+}
+
+.cartPageFonts,
+.cartPageSubtotalsPrice {
+  font: 1rem "Poppins-Medium", sans-serif;
+}
+
+.cartPageProductInfo {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.cartPageProductImage {
+  width: 6.75rem;
+  height: 6.563rem;
+}
+
+.infoFonts,
+.cartPageTotalsPrice,
+.cartPageCartButton {
+  font-family: "Poppins-Regular", sans-serif;
+}
+
+.cartPageProductNameInfo,
+.cartPageProducPriceInfo,
+.cartPageProductQuantityInfo,
+.cartPageProductSubtotalInfo {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartItemRemove {
+  cursor: pointer;
+}
+
+.cartPageProductNameInfo {
+  width: 6.5rem;
+  margin-left: 1.6rem;
+}
+
+.cartPageProducPriceInfo {
+  margin-right: 3.8rem;
+}
+
+.cartPageProductQuantityInfo {
+  margin-right: 5rem;
+  padding: 4px 12px;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 3.5%;
+}
+
+.cartPageProductSubtotalInfo {
+  margin-right: 1rem;
+}
+
+.cartPageCartTotal {
+  background-color: #f9f1e7;
+  padding: 15px 4.20rem 2.62rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 1.8rem;
+  height: 24rem;
+}
+
+.cartPageTotalTitle {
+  font: 2rem "Poppins-SemiBold", sans-serif;
+  padding-bottom: 3.8rem;
+}
+
+.cartPageTotalsTexts {
+  display: flex;
+}
+
+.cartPageTotalsInfo {
+  margin: 0 3.8rem 2rem 0;
+}
+
+.cartPageTotalsPrice {
+  font-size: 1rem;
+  color: #9f9f9f;
+}
+
+.cartPageSubtotalsInfo {
+  margin-bottom: 3rem;
+}
+
+.cartPageSubtotalsPrice {
+  color: var(--primary);
+  margin-left: 3.6rem;
+  font-size: 1.25rem;
+}
+
+.cartPageCartButton {
+  background-color: transparent;
+  font-size: 1.25rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 0.8rem 3.7rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cartPageCartButton:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+@media screen and (max-width: 1327px) {
+  .cartPageCartButton {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .cartPageMain {
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+
+  .cartPageProductsContainer {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .cartPageCartTotal {
+    width: 100%;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    height: auto;
+  }
+
+  .cartPageTotalTitle {
+    font-size: 1.75rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cartPageMain {
+    padding: 0 1rem;
+  }
+
+  .cartPageProductsContainer {
+    margin-top: 1rem;
+  }
+
+  .cartPageProductsDescrip {
+    display: none;
+  }
+
+  .cartPageProductInfo {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+
+  .cartPageProductImage {
+    width: 6.75rem;
+    height: 6.563rem;
+    margin-bottom: 1rem;
+  }
+
+  .cartPageProductNameInfo {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+
+  }
+
+  .cartPageProducPriceInfo,
+  .cartPageProductQuantityInfo,
+  .cartPageProductSubtotalInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+
+  .cartPageProducPriceInfo {
+    display: none;
+  }
+
+  .cartPageProductQuantityInfo {
+    width: 25px;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    border: none;
+    justify-content: center;
+  }
+
+  .cartPageCartTotal {
+    margin: 1rem 0;
+  }
+
+  .cartPageTotalTitle {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .cartPageTotalsTexts {
+    flex-direction: column;
+  }
+
+  .cartPageTotalsInfo {
+    margin: 0.5rem 0;
+  }
+
+  .cartPageSubtotalsInfo {
+    margin: 1rem 0;
+  }
+
+  .cartPageSubtotalsPrice {
+    margin: 0 0 1rem 0;
+  }
+
+  .cartPageCartButton {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cartPageMain {
+    padding: 0 0.5rem;
+  }
+
+  .cartPageProductInfo {
+    padding: 0.75rem;
+  }
+
+  .cartPageProductImage {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .cartPageProductNameInfo {
+    display: block;
+    width: 100%;
+    font-size: 0.8rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0 0.5rem;
+  }
+
+  .cartPageTotalTitle {
+    font-size: 1.25rem;
+  }
+
+  .cartPageCartButton {
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+}

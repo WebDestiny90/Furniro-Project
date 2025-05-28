@@ -1,0 +1,13 @@
+.sliderContainer {
+  position: relative;
+  max-height: 51.875rem;
+  overflow: hidden;
+}
+
+.swiperImage {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  max-height: 51.875rem;
+}

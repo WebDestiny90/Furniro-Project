@@ -1,0 +1,142 @@
+.categoryItems {
+  background: url(../../public/assets/img/shopimg.png) no-repeat center bottom/ cover;
+  padding: 7.5rem 0;
+  margin-bottom: 2rem;
+}
+
+.logoImage {
+  width: 3.438rem;
+  height: 3.438rem;
+  display: block;
+  margin: auto;
+}
+
+.categoryTitle {
+  color: #000;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.categoryTextsBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeText {
+  color: #000;
+  font-size: 1rem;
+  font-family: "Poppins-Medium", sans-serif;
+}
+
+.arrowImage {
+  margin-inline: 6px;
+  width: 20px;
+  height: 20px;
+}
+
+.categoryText {
+  color: #000;
+  font-size: 1rem;
+  font-family: "Poppins-Light", sans-serif
+}
+
+@media screen and (max-width: 1200px) {
+  .categoryItems {
+    padding: 6rem 0;
+  }
+  
+  .categoryTitle {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .categoryItems {
+    padding: 5rem 0;
+  }
+  
+  .categoryTitle {
+    font-size: 2.2rem;
+  }
+  
+  .logoImage {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .categoryItems {
+    padding: 4rem 0;
+  }
+  
+  .categoryTitle {
+    font-size: 2rem;
+  }
+  
+  .homeText,
+  .categoryText {
+    font-size: 0.9rem;
+  }
+  
+  .arrowImage {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .categoryItems {
+    padding: 3rem 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .categoryTitle {
+    font-size: 1.8rem;
+  }
+  
+  .logoImage {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  .homeText,
+  .categoryText {
+    font-size: 0.85rem;
+  }
+  
+  .arrowImage {
+    width: 16px;
+    height: 16px;
+    margin-inline: 4px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .categoryItems {
+    padding: 2.5rem 0;
+    margin-bottom: 1rem;
+  }
+  
+  .categoryTitle {
+    font-size: 1.5rem;
+  }
+  
+  .logoImage {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .homeText,
+  .categoryText {
+    font-size: 0.8rem;
+  }
+  
+  .arrowImage {
+    width: 14px;
+    height: 14px;
+    margin-inline: 3px;
+  }
+}

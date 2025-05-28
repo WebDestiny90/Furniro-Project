@@ -1,0 +1,23 @@
+.wishlist-notification {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  background: #b88e2f;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  animation: showNotification 0.4s forwards;
+  z-index: 1000;
+}
+
+@keyframes showNotification {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+} 
