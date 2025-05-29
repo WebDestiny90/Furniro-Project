@@ -10,7 +10,7 @@ import TvStandsPage from "./pages/TvStandsPage/TvStandsPage";
 import TvStandProduct from "./pages/TvStandProduct/TvStandProduct";
 import SectionalsPage from "./pages/SectionalsPage/SectionalsPage";
 import SectionalsProduct from "./pages/SectionalsProduct/SectionalsProduct";
-import CoffeePage from "./pages/CoffeePage/CoffeePage";
+import CoffeePage from "./pages/coffee-page/CoffeePage";
 import CoffeeProduct from "./pages/CoffeeProduct/CoffeeProduct";
 import CartPage from "./pages/CartPage/CartPage";
 import CheckOut from "./pages/CheckOut/CheckOut";
