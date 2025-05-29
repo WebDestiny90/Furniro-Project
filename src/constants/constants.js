@@ -24,7 +24,7 @@ export const CategoryLinks = [
   { id: 1, to: "/SofaPage", imageSrc: "/assets/img/category/SofaCategory.webp", title: "Sofas & Couches", alt: "Sofa" },
   { id: 2, to: "/TvStandsPage", imageSrc: "/assets/img/category/TvStandsCategory.webp", title: "TV Stands", alt: "TV Stands & Entertainment Centers" },
   { id: 3, to: "/SectionalsPage", imageSrc: "/assets/img/category/SectionalsCategory.webp", title: "Sectionals", alt: "Sectionals" },
-  { id: 4, to: "", imageSrc: "/assets/img/category/CoffeeCategory.webp", title: "Coffee Tables", alt: "Coffee Tables" },
+  { id: 4, to: "/CoffeePage", imageSrc: "/assets/img/category/CoffeeCategory.webp", title: "Coffee Tables", alt: "Coffee Tables" },
   { id: 5, to: "", imageSrc: "/assets/img/category/PlantCategory.webp", title: "Plant Stands & Tables", alt: "Plant Stands & Tables" },
   { id: 6, to: "", imageSrc: "/assets/img/category/AccentCategory.webp", title: "Accent Chairs", alt: "Accent Chairs" },
   { id: 7, to: "", imageSrc: "/assets/img/category/BedsCategory.webp", title: "Beds", alt: "Beds" },
