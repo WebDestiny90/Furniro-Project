@@ -1,3 +1,11 @@
+export const heroSwiper = [
+  { id: 1, imgSrc: "/assets/img/heroimg.png" },
+  { id: 2, imgSrc: "/assets/img/heroimg2.webp" },
+  { id: 3, imgSrc: "/assets/img/heroimg3.jpg" },
+  { id: 4, imgSrc: "/assets/img/heroimg4.png" },
+  { id: 5, imgSrc: "/assets/img/heroimg5.jpg" }
+]
+
 export const inspirationSlider = [
   { id: 1, imgSrc: "/assets/img/furniture_slide1.jpg", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
   { id: 2, imgSrc: "/assets/img/furniture_slide2.jpg", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
