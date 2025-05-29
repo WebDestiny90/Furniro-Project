@@ -6,10 +6,10 @@ const Features = () => {
   return (
     <section className="featuresbox">
       <div className="container">
-        <div className="featuresContainer">
+        <div className="featuresContainer featuresFlex">
           {
             features.map(({ id, imgSrc, alt, title, text }) => (
-              <div key={id} className="features">
+              <div key={id} className="features featuresFlex">
                 <img className="featuresImage" src={imgSrc} alt={alt} />
                 <div className="featuresTexts">
                   <p className="featuresTitle">{title}</p>

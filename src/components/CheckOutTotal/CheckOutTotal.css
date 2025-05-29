@@ -2,11 +2,14 @@
   width: 38rem;
 }
 
-.CheckOutTotalProductInfoBox {
+.CheckOutFlex {
   display: flex;
+}
+
+.CheckOutTotalProductInfoBox {
   justify-content: space-between;
   align-items: flex-start;
-  min-height: 100px;
+  min-height: 6,25rem;
   border-bottom: 2px solid #9f9f9f;
 }
 
@@ -17,7 +20,7 @@
 }
 
 .CheckOutTotalProductNamesBox {
-  max-height: 150px;
+  max-height: 9,3750rem;
   overflow-y: auto;
   margin-bottom: 1rem;
 }
@@ -36,7 +39,6 @@
 }
 
 .CheckOutTotalProductNames {
-  display: flex;
   align-items: center;
 }
 
@@ -80,14 +82,12 @@
 }
 
 .CheckOutTotalProductPriceBox {
-  display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 
 .CheckOutTotalBankLabel {
   font: 1rem "Poppins-Medium", sans-serif;
-  display: flex;
   align-items: center;
   margin-top: 1rem;
   color: #9f9f9f;
@@ -116,7 +116,6 @@
   cursor: pointer;
 }
 
-/* Адаптивные стили */
 @media screen and (max-width: 1200px) {
   .CheckOutTotalRightSide {
     width: 100%;

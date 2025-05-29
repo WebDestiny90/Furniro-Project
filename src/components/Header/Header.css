@@ -8,7 +8,8 @@
   align-items: center;
 }
 
-.header-items {
+.header-items,
+.cartLinks {
   justify-content: space-between;
 }
 
@@ -72,8 +73,6 @@
 
 .cartDesc,
 .productPrice {
-  display: flex;
-  align-items: center;
   width: 100%;
   gap: 1rem;
   margin-bottom: 1rem;
@@ -119,8 +118,6 @@
 }
 
 .subTotalItems {
-  display: flex;
-  align-items: center;
   border-bottom: 1px solid #d9d9d9;
   padding-bottom: 1rem;
 }
@@ -136,9 +133,6 @@
 }
 
 .cartLinks {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin-top: 1.5rem;
   
 }
@@ -249,8 +243,6 @@
 }
 
 .search-result-item {
-  display: flex;
-  align-items: center;
   padding: 10px;
   border-bottom: 1px solid #eee;
   text-decoration: none;

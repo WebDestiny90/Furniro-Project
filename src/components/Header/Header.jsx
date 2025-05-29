@@ -102,11 +102,11 @@ const Header = () => {
                 <p>Cart is empty</p>
               ) : (
                 cartItems.map((item) => (
-                  <div key={`${item.product.category}-${item.product.id}-${item.selectedColor}`} className="cartDesc">
+                  <div key={`${item.product.category}-${item.product.id}-${item.selectedColor}`} className="cartDesc flex">
                     <img className="productImage" src={item.product.colors[item.selectedColor].main} alt={item.product.alt} />
                     <div className="productDescription">
                       <p className="productName colorBlack">{item.product.name}</p>
-                      <div className="productPrice">
+                      <div className="productPrice flex">
                         <p className="productQuantity colorBlack">{item.quantity}</p>
                         <span className="productSpan colorBlack">X</span>
                         <p className="productPriceItem">{item.product.price}</p>
@@ -118,7 +118,7 @@ const Header = () => {
               )}
             </div>
             <div className="cartMenuTotal">
-              <div className="subTotalItems">
+              <div className="subTotalItems flex">
                 <p className="cartSubtotal colorBlack">Subtotal</p>
                 <p className="cartSubPrice">
                   ${cartItems.reduce(
@@ -129,7 +129,7 @@ const Header = () => {
                   ).toFixed(2)}
                 </p>
               </div>
-              <div className="cartLinks">
+              <div className="cartLinks flex">
                 <Link className="goCArtPageLink colorBlack linkFonts border" onClick={() => setBurgerMenuOpen(false)} to="/CartPage" >Cart</Link>
                 <Link className="checkoutLink colorBlack linkFonts border" onClick={() => setBurgerMenuOpen(false)} to="/CheckOut" >Checkout</Link>
                 <Link className="comparisonLink colorBlack linkFonts border" onClick={() => setBurgerMenuOpen(false)} to="/404" >Comparison</Link>
@@ -162,7 +162,7 @@ const Header = () => {
                   <Link
                     key={`${product.category}-${product.id}`}
                     to={`/${product.category}Product/${product.id}`}
-                    className="search-result-item"
+                    className="search-result-item flex"
                     onClick={toggleSearchModal}
                   >
                     <img

@@ -4,20 +4,22 @@
   margin-top: 6rem;
 }
 
-.featuresContainer {
+.featuresFlex {
   display: flex;
+}
+
+.featuresContainer {
   justify-content: space-between;
 }
 
 .features {
-  display: flex;
   align-items: center;
   gap: 10px; 
 }
 
 .featuresImage {
-  width: 60px;
-  height: 60px;
+  width: 3,75rem;
+  height: 3,75rem;
 }
 
 .featuresTitle {
@@ -55,16 +57,4 @@
     font-size: 0.6rem;
   }
   
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-@media (min-width: 1200px) {
-
 }

@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade } from "swiper/modules";
+import { heroSwiper } from "../../constants/constants"
 import "./MainSwaper.css"
 import 'swiper/css';
 import 'swiper/css/effect-fade';
@@ -18,21 +19,15 @@ const MainSwiper = () => {
         modules={[EffectFade, Autoplay]}
         className="swiper"
       >
-        <SwiperSlide className="swiperSlide">
-          <img className="swiperImage" src="/assets/img/heroimg.png" alt="Furniture image" />
-        </SwiperSlide>
-        <SwiperSlide className="swiperSlide">
-          <img className="swiperImage" src="/assets/img/heroimg2.webp" alt="Furniture image" />
-        </SwiperSlide>
-        <SwiperSlide className="swiperSlide">
-          <img className="swiperImage" src="/assets/img/heroimg3.jpg" alt="Furniture image" />
-        </SwiperSlide>
-        <SwiperSlide className="swiperSlide">
-          <img className="swiperImage" src="/assets/img/heroimg4.png" alt="Furniture image" />
-        </SwiperSlide>
-        <SwiperSlide className="swiperSlide">
-          <img className="swiperImage" src="/assets/img/heroimg5.jpg" alt="Furniture image" />
-        </SwiperSlide>
+        {
+          heroSwiper.map(({ id, imgSrc }) => {
+            return (
+              <SwiperSlide key={id} className="swiperSlide">
+                <img className="swiperImage" src={imgSrc} alt="Furniture image" />
+              </SwiperSlide>
+            )
+          })
+        }
       </Swiper>
     </div>
   )

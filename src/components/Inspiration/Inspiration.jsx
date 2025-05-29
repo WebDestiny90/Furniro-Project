@@ -11,7 +11,6 @@ const Inspiration = () => {
   const animTimeoutRef = useRef();
   const autoNextRef = useRef();
 
-  // Сброс полоски времени
   useEffect(() => {
     if (runningTimeRef.current) {
       runningTimeRef.current.style.animation = "none";
@@ -21,7 +20,6 @@ const Inspiration = () => {
     }
   }, [slideList]);
 
-  // Автоматическая прокрутка
   useEffect(() => {
     autoNextRef.current = setTimeout(() => {
       showSlider("next");
@@ -41,7 +39,6 @@ const Inspiration = () => {
 
     clearTimeout(animTimeoutRef.current);
     animTimeoutRef.current = setTimeout(() => {
-      // ничего не делаем, просто для совместимости с оригиналом
     }, timeRunning);
   }
 
