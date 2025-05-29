@@ -15,7 +15,7 @@ const Browse = () => {
               <Link className="linkItems colorGrey" to="/"><img className="browseImages" src="/assets/img/dining.png" alt="Dining category" />Dining</Link>
             </div>
             <div className="browseLinks textCenter">
-              <Link className="linkItems colorGrey" to="/"><img className="browseImages" src="/assets/img/living.png" alt="Living category" />Living</Link>
+              <Link className="linkItems colorGrey" to="/SofaPage"><img className="browseImages" src="/assets/img/living.png" alt="Living category" />Living</Link>
             </div>
             <div className="browseLinks textCenter">
               <Link className="linkItems colorGrey" to="/"><img className="browseImages" src="/assets/img/bedroom.png" alt="Bedroom category" />Bedroom</Link>
