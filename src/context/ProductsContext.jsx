@@ -28,9 +28,9 @@ export const ProductsProvider = ({ children }) => {
 
         // Объединяем все продукты в один массив
         const allProducts = [
-          ...sofasResponse.data.map(sofa => ({ ...sofa, category: 'sofa' })),
-          ...tvStandsResponse.data.map(tvStand => ({ ...tvStand, category: 'tvstand' })),
-          ...sectionalsResponse.data.map(sectional => ({ ...sectional, category: 'sectional' }))
+          ...sofasResponse.data.map(sofa => ({ ...sofa, category: 'Sofa' })),
+          ...tvStandsResponse.data.map(tvStand => ({ ...tvStand, category: 'TvStand' })),
+          ...sectionalsResponse.data.map(sectional => ({ ...sectional, category: 'Sectionals' }))
         ];
 
         setProducts(allProducts);
