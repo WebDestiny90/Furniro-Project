@@ -20,11 +20,6 @@ const OurProducts = ({ title = true, more = true }) => {
               </div>
             ))}
           </div>
-          <div className="pagination">
-            <button className="activePage">1</button>
-            <button className="activePage">2</button>
-            <button className="activePage">3</button>
-          </div>
           {more && (<div className="showMoreLink Ourflex">
             <Link className="productShow font" to="/shop">Show More</Link>
           </div>)}
