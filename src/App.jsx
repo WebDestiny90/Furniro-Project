@@ -10,6 +10,8 @@ import TvStandsPage from "./pages/TvStandsPage/TvStandsPage";
 import TvStandProduct from "./pages/TvStandProduct/TvStandProduct";
 import SectionalsPage from "./pages/SectionalsPage/SectionalsPage";
 import SectionalsProduct from "./pages/SectionalsProduct/SectionalsProduct";
+import CoffeePage from "./pages/CoffeePage/CoffeePage";
+import CoffeeProduct from "./pages/CoffeeProduct/CoffeeProduct";
 import CartPage from "./pages/CartPage/CartPage";
 import CheckOut from "./pages/CheckOut/CheckOut";
 import { CartProvider } from "./context/CartContext";
@@ -44,6 +46,8 @@ function App() {
                 <Route path="/TvStandProduct/:id" element={<TvStandProduct />} />
                 <Route path="/SectionalsPage" element={<SectionalsPage />} />
                 <Route path="/SectionalsProduct/:id" element={<SectionalsProduct />} />
+                <Route path="/CoffeePage" element={<CoffeePage />} />
+                <Route path="/CoffeeProduct/:id" element={<CoffeeProduct />} />
                 <Route path="/CartPage" element={<CartPage />} />
                 <Route path="/CheckOut" element={<CheckOut />} />
                 <Route path="/Account" element={<Account />} />
