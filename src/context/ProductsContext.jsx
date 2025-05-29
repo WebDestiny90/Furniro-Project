@@ -16,21 +16,24 @@ export const ProductsProvider = ({ children }) => {
     const fetchProducts = async () => {
       try {
         // Загружаем данные из обеих таблиц
-        const [sofasResponse, tvStandsResponse, sectionalsResponse] = await Promise.all([
+        const [sofasResponse, tvStandsResponse, sectionalsResponse, coffeeResponse] = await Promise.all([
           supabase.from('sofas').select('*'),
           supabase.from('tvstands').select('*'),
-          supabase.from('sectionals').select('*')
+          supabase.from('sectionals').select('*'),
+          supabase.from('coffee').select('*')
         ]);
 
         if (sofasResponse.error) throw sofasResponse.error;
         if (tvStandsResponse.error) throw tvStandsResponse.error;
         if (sectionalsResponse.error) throw sectionalsResponse.error;
+        if (coffeeResponse.error) throw coffeeResponse.error;
 
         // Объединяем все продукты в один массив
         const allProducts = [
           ...sofasResponse.data.map(sofa => ({ ...sofa, category: 'Sofa' })),
           ...tvStandsResponse.data.map(tvStand => ({ ...tvStand, category: 'TvStand' })),
-          ...sectionalsResponse.data.map(sectional => ({ ...sectional, category: 'Sectionals' }))
+          ...sectionalsResponse.data.map(sectional => ({ ...sectional, category: 'Sectionals' })),
+          ...coffeeResponse.data.map(coffee => ({ ...coffee, category: 'Coffee' }))
         ];
 
         setProducts(allProducts);
