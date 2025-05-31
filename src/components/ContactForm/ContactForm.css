@@ -1,0 +1,111 @@
+.contactLabel {
+  font: 1rem "Poppins-Medium", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.contactInputItem {
+  font: 1rem "Poppins-Regular", sans-serif;
+  color: #333;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 30rem;
+  height: 3.5rem;
+  margin: 0.5rem 0 1.5rem;
+  padding: 0.8rem 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contactInputItem:focus {
+  border-color: #b88e2f;
+  box-shadow: 0 0 0.5rem rgba(184, 142, 47, 0.3);
+}
+
+.messageInput {
+  resize: vertical;
+  height: 8rem;
+}
+
+.contactSubmit {
+  font: 1rem "Poppins-Regular", sans-serif;
+  border: none;
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 3rem;
+  color: white;
+  background-color: #b88e2f;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contactSubmit:hover {
+  background-color: #a07a28;
+}
+
+.success-message,
+.error-message {
+  font: 1rem "Poppins-Medium", sans-serif;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  max-width: 30rem;
+  animation: slideIn 0.3s ease-out;
+}
+
+.success-message {
+  color: #2e7d32;
+  background-color: #e8f5e9;
+  border: 1px solid #a5d6a7;
+}
+
+.error-message {
+  color: #c62828;
+  background-color: #ffebee;
+  border: 1px solid #ef9a9a;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactLabel {
+    margin-bottom: 0.8rem;
+  }
+  
+  .contactInputItem {
+    font-size: 0.9rem;
+    height: 3rem;
+    margin: 0.3rem 0 1rem;
+    padding: 0.6rem 0.8rem;
+    max-width: 100%;
+  }
+
+  .messageInput {
+    height: 6rem;
+  }
+  
+  .contactSubmit {
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 0.9rem;
+  }
+
+  .success-message,
+  .error-message {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+} 
