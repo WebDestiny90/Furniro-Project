@@ -25,8 +25,8 @@ import NotFound from "./pages/NotFound/NotFound";
 import WishList from "./components/WishList/WishList";
 import { WishListProvider } from "./context/WishListContext";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
-import Returns from "./pages/Returns/Returns";
+import PrivacyPolicy from "./pages/privacy-policy/PrivacyPolicy";
+import Returns from "./pages/returns/Returns";
 
 
 function App() {
