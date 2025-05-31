@@ -1,4 +1,4 @@
-import "./Returns.css";
+import "./ReturnsPage.css";
 
 const ReturnsPage = () => (
   <main className="returnsPage">

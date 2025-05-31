@@ -59,8 +59,10 @@ function App() {
                 <Route path="/404" element={<NotFound />} />
                 <Route path="*" element={<NotFound />} />
                 <Route path="/WishList" element={<WishList />} />
-                <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 <Route path="/returns" element={<ReturnsPage />} />
+
+
               </Routes>
               <Footer />
             </BrowserRouter>
