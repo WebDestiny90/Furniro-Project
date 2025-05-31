@@ -20,8 +20,8 @@ const Footer = () => {
           <div className="footerHelpLinks">
             <p className="footerHelpText footerColorGray">Help</p>
             <Link className="footerLinksItems" to="#">Payment Options</Link>
-            <Link className="footerLinksItems" to="/Returns">Returns</Link>
-            <Link className="footerLinksItems" to="/PrivacyPolicy">Privacy Policies</Link>
+            <Link className="footerLinksItems" to="/returns">Returns</Link>
+            <Link className="footerLinksItems" to="/privacy-policy">Privacy Policies</Link>
           </div>
           <div className="footerNewsLinks footerColorGray">
             <p className="footerNewsText">Newsletter</p>
