@@ -26,7 +26,7 @@ import WishList from "./components/WishList/WishList";
 import { WishListProvider } from "./context/WishListContext";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import PrivacyPolicy from "./pages/privacy-policy/PrivacyPolicy";
-import Returns from "./pages/returns/Returns";
+import Returns from "./pages/returns/ReturnsPage";
 
 
 function App() {
@@ -60,7 +60,7 @@ function App() {
                 <Route path="*" element={<NotFound />} />
                 <Route path="/WishList" element={<WishList />} />
                 <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
-                <Route path="/Returns" element={<Returns />} />
+                <Route path="/Returns" element={<ReturnsPage />} />
               </Routes>
               <Footer />
             </BrowserRouter>

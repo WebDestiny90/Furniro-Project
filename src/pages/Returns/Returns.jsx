@@ -1,6 +1,6 @@
 import "./Returns.css";
 
-const Returns = () => (
+const ReturnsPage = () => (
   <main className="returnsPage">
     <div className="container">
       <h1>Returns & Refund Policy</h1>
@@ -29,4 +29,4 @@ const Returns = () => (
   </main>
 );
 
-export default Returns;
+export default ReturnsPage;
