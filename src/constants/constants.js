@@ -65,9 +65,9 @@ export const addressInfo = [
 ]
 
 export const contactFields = [
-  { id: 1, label: "Your Name", type: "text", placeHolder: "First Name" },
-  { id: 2, label: "Email address", type: "email", placeHolder: "example@mail.com" },
-  { id: 3, label: "Subject", type: "text", placeHolder: "This is an optional" }
+  { id: 1, label: "Your Name", type: "text", placeHolder: "First Name", required: true },
+  { id: 2, label: "Email address", type: "email", placeHolder: "example@mail.com", required: true },
+  { id: 3, label: "Subject", type: "text", placeHolder: "This is an optional", required: false }
 ];
 
 export const blogItems = [

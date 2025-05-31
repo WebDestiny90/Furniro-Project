@@ -101,6 +101,18 @@
   background-color: #a07a28;
 }
 
+.success-message {
+  color: #4CAF50;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.error-message {
+  color: #f44336;
+  margin-top: 10px;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .contactSubTitle {
     font-size: 1.8rem;

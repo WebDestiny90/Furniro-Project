@@ -1,8 +1,8 @@
 import "./ContactPage.css"
 import CategoryHeader from "../../components/CategoryHeader/CategoryHeader"
-import { addressInfo, contactFields } from "../../constants/constants"
-import Features from "../../components/Features/Features";
-
+import { addressInfo } from "../../constants/constants"
+import Features from "../../components/Features/Features"
+import ContactForm from "../../components/ContactForm/ContactForm"
 
 const ContactPage = () => {
   return (
@@ -30,25 +30,7 @@ const ContactPage = () => {
             }
           </div>
           <div className="contactRightSide">
-            <div className="contactInputs">
-              <form className="contactForm">
-                {
-                  contactFields.map(({ id, label, type, placeHolder }) => {
-                    return (
-                      <label key={id} className="contactLabel">
-                        {label}
-                        <input className="contactInputItem" type={type} placeholder={placeHolder} required />
-                      </label>
-                    )
-                  })
-                }
-                <label className="contactLabel meesageLabel">
-                  Message
-                  <textarea className="contactInputItem messageInput" placeholder="Hi! i’d like to ask about" cols={30} rows={10} required ></textarea>
-                </label>
-                <button className="contactSubmit">Submit</button>
-              </form>
-            </div>
+            <ContactForm />
           </div>
         </div>
       </div>
