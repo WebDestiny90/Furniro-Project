@@ -1,0 +1,93 @@
+.paymentItems {
+  max-width: 50rem;
+  margin: 0 auto;
+  background: #faf6f2;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+  padding: 40px 32px;
+}
+
+.paymentItems h1 {
+  font-size: 2.5rem;
+  color: #b88e2f;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.payment-desc {
+  color: #555;
+  font-size: 1.08rem;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.payment-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+}
+
+.payment-list li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+  font-size: 1.05rem;
+  color: #333;
+}
+
+.payment-list img {
+  width: 36px;
+  height: 24px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 6px;
+  padding: 2px 4px;
+  box-shadow: 0 1px 4px rgba(184, 142, 47, 0.07);
+}
+
+.paymentItems h2 {
+  font-size: 1.2rem;
+  color: #7a5c1c;
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+
+.paymentItems p, .paymentItems a {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+.paymentItems a {
+  color: #b88e2f;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .paymentItems {
+    padding: 20px 8px;
+    border-radius: 10px;
+  }
+  .paymentItems h1 {
+    font-size: 1.5rem;
+  }
+  .payment-list li {
+    font-size: 0.97rem;
+    gap: 8px;
+  }
+  .payment-list img {
+    width: 26px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .paymentItems {
+    padding: 8px 2px;
+  }
+  .paymentItems h1 {
+    font-size: 1.1rem;
+  }
+}
