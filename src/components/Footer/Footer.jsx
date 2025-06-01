@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           <div className="footerHelpLinks">
             <p className="footerHelpText footerColorGray">Help</p>
-            <Link className="footerLinksItems" to="#">Payment Options</Link>
+            <Link className="footerLinksItems" to="payment-options">Payment Options</Link>
             <Link className="footerLinksItems" to="/returns-page">Returns</Link>
             <Link className="footerLinksItems" to="/privacy-policy">Privacy Policies</Link>
           </div>
