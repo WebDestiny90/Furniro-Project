@@ -1,8 +1,7 @@
-import React from "react";
-import "./PaymentOptions.css";
+import "./PaymentOptionsPage.css";
 import CategoryHeader from "../../components/CategoryHeader/CategoryHeader";
 
-const PaymentOptions = () => (
+const PaymentOptionsPage = () => (
   <main className="paymentOptionsPage">
     <CategoryHeader title="Payment Options" text="Payment Options" image={false} logo={true} />
     <div className="container">
@@ -41,4 +40,4 @@ const PaymentOptions = () => (
   </main>
 );
 
-export default PaymentOptions;
+export default PaymentOptionsPage;
