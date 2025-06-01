@@ -27,7 +27,7 @@ import { WishListProvider } from "./context/WishListContext";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import ReturnsPage from "./pages/returns-page/ReturnsPage";
 import PrivacyPolicy from "./pages/privacy-policy/PrivacyPolicy";
-import PaymentOptions from "./pages/payment-options/PaymentOptions";
+import PaymentOptionsPage from "./pages/payment-options/PaymentOptionsPage";
 
 
 function App() {
@@ -62,7 +62,7 @@ function App() {
                 <Route path="/WishList" element={<WishList />} />
                 <Route path="/returns-page" element={<ReturnsPage />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-                <Route path="/payment-options" element={<PaymentOptions />} />
+                <Route path="/payment-options" element={<PaymentOptionsPage />} />
 
 
               </Routes>
