@@ -18,7 +18,7 @@ const Home = () => {
               <p className="mainText">New Arrival</p>
               <h1 className="mainTitle">Discover Our New Collection</h1>
               <p className="mainSecondText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-              <Link className="mainButton" to="/">BUY NOW</Link>
+              <Link className="mainButton" to="/Shop">BUY NOW</Link>
             </div>
           </div>
         </div>
