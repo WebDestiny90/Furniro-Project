@@ -7,17 +7,17 @@ export const heroSwiper = [
 ]
 
 export const inspirationSlider = [
-  { id: 1, imgSrc: "/assets/img/furniture_slide1.jpg", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
-  { id: 2, imgSrc: "/assets/img/furniture_slide2.jpg", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
-  { id: 3, imgSrc: "/assets/img/furniture_slide3.jpeg", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
-  { id: 4, imgSrc: "/assets/img/furniture_slide4.jpg", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
-  { id: 5, imgSrc: "/assets/img/furniture_slide5.jpg", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
-  { id: 6, imgSrc: "/assets/img/furniture_slide6.jpg", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
-  { id: 7, imgSrc: "/assets/img/furniture_slide7.jpg", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
-  { id: 8, imgSrc: "/assets/img/furniture_slide8.jpg", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
-  { id: 9, imgSrc: "/assets/img/furniture_slide9.jpg", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
-  { id: 10, imgSrc: "/assets/img/furniture_slide10.jpg", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
-  { id: 11, imgSrc: "/assets/img/furniture_slide11.jpg", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." }
+  { id: 1, imgSrc: "/assets/img/furniture_slide1.webp", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
+  { id: 2, imgSrc: "/assets/img/furniture_slide2.webp", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
+  { id: 3, imgSrc: "/assets/img/furniture_slide3.webp", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
+  { id: 4, imgSrc: "/assets/img/furniture_slide4.webp", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
+  { id: 5, imgSrc: "/assets/img/furniture_slide5.webp", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
+  { id: 6, imgSrc: "/assets/img/furniture_slide6.webp", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
+  { id: 7, imgSrc: "/assets/img/furniture_slide7.webp", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
+  { id: 8, imgSrc: "/assets/img/furniture_slide8.webp", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
+  { id: 9, imgSrc: "/assets/img/furniture_slide9.webp", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
+  { id: 10, imgSrc: "/assets/img/furniture_slide10.webp", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." },
+  { id: 11, imgSrc: "/assets/img/furniture_slide11.webp", title: "Lorem", name: "Ipsum", des: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis culpa similique consequuntur, reprehenderit dicta repudiandae." }
 ]
 
 export const CategoryLinks = [
