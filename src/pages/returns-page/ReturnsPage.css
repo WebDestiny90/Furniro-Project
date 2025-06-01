@@ -1,19 +1,12 @@
-.returnsPage {
-  padding: 40px 0;
-  min-height: 70vh;
-}
-
-.returnsPage .container {
-  max-width: 900px;
-  margin: 0 auto;
+.returns-pageItems {
   background: #fffbe6;
-  border-radius: 20px;
   box-shadow: 0 4px 24px rgba(184, 142, 47, 0.10);
   padding: 32px 20px;
   border: 2px solid #b88e2f;
+  border-radius: 20px;
 }
 
-.returnsPage h1 {
+.returns-pageItems h1 {
   font-size: 2.2rem;
   color: #7a5c1c;
   margin-bottom: 28px;
@@ -24,57 +17,56 @@
   gap: 12px;
 }
 
-.returnsPage h1::before {
+.returns-pageItems h1::before {
   content: '';
   display: inline-block;
   width: 32px;
   height: 32px;
 }
 
-.returnsPage h2 {
-  font-size: 1.2rem;
+.returns-pageItems h2 {
+  font-size: 1.5rem;
   color: #b88e2f;
   margin-top: 28px;
   margin-bottom: 10px;
 }
 
-.returnsPage p {
+.returns-pageItems p {
   color: #444;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   margin-bottom: 14px;
 }
 
-/* --- Responsive --- */
 @media (max-width: 700px) {
-  .returnsPage .container {
+  .returns-pageItems {
     padding: 20px 8px;
     border-radius: 12px;
   }
-  .returnsPage h1 {
+  .returns-pageItems h1 {
     font-size: 1.5rem;
     gap: 8px;
   }
-  .returnsPage h1::before {
+  .returns-pageItems h1::before {
     width: 24px;
     height: 24px;
   }
-  .returnsPage h2 {
+  .returns-pageItems h2 {
     font-size: 1.05rem;
   }
-  .returnsPage p {
+  .returns-pageItems p {
     font-size: 0.97rem;
   }
 }
 
 @media (max-width: 400px) {
-  .returnsPage .container {
+  .returns-pageItems {
     padding: 10px 2px;
   }
-  .returnsPage h1 {
+  .returns-pageItems h1 {
     font-size: 1.1rem;
   }
-  .returnsPage h1::before {
+  .returns-pageItems h1::before {
     width: 18px;
     height: 18px;
   }
