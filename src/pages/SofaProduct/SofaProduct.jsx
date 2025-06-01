@@ -126,8 +126,6 @@ const SofaProduct = () => {
                     ref={imgRef}
                     className="singleMainImageItem"
                     src={mainImage}
-                    width={423}
-                    height={500}
                     alt={sofa.alt}
                     onMouseMove={handleMouseMove}
                     onMouseLeave={handleMouseLeave}
