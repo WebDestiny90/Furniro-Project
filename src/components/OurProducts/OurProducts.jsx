@@ -13,10 +13,10 @@ const OurProducts = ({ title = true, more = true }) => {
               <div key={id} className="gridItems">
                 <Link className="productLinkItem" to={to}>
                   <img className="gridImage shadow" src={imageSrc} alt={alt} width={285} height={301} />
+                  <div className="gridInfo shadow">
+                    <h3 className="gridTitle">{title}</h3>
+                  </div>
                 </Link>
-                <div className="gridInfo shadow">
-                  <h3 className="gridTitle">{title}</h3>
-                </div>
               </div>
             ))}
           </div>
