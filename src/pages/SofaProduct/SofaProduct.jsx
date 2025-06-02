@@ -112,8 +112,8 @@ const SofaProduct = () => {
                     key={preview}
                     className="singleImage"
                     src={preview}
-                    width={76}
-                    height={80}
+                    width={90}
+                    height={90}
                     alt={sofa.alt}
                     onClick={() => handleImageClick(sofa.colors[currentColor].mains[index])}
                     style={{ cursor: "pointer" }}
