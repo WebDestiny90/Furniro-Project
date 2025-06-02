@@ -63,8 +63,6 @@ function App() {
                 <Route path="/returns-page" element={<ReturnsPage />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 <Route path="/payment-options" element={<PaymentOptionsPage />} />
-
-
               </Routes>
               <Footer />
             </BrowserRouter>
