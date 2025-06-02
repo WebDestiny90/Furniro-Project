@@ -29,6 +29,7 @@
   transition: transform 0.2s;
   width: 400px;
   height: 450px;
+  aspect-ratio: 1/1;
 }
 
 .singleDescription {
