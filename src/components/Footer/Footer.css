@@ -67,11 +67,14 @@
   cursor: pointer;
 }
 
-.footerEnd {
-  font: 1rem "Poppins-Regular", sans-serif;
+.footerEndLine {
   border-top: 1px solid #c0bfbf;
   display: block;
-  padding: 30px 0 0;
+  margin-bottom: 30px;
+}
+
+.footerEnd {
+  font: 1rem "Poppins-Regular", sans-serif;
 }
 
 @media screen and (max-width: 1200px) {
