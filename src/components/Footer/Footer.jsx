@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           <div className="footerHelpLinks">
             <p className="footerHelpText footerColorGray">Help</p>
-            <Link className="footerLinksItems" to="payment-options">Payment Options</Link>
+            <Link className="footerLinksItems" to="/payment-options">Payment Options</Link>
             <Link className="footerLinksItems" to="/returns-page">Returns</Link>
             <Link className="footerLinksItems" to="/privacy-policy">Privacy Policies</Link>
           </div>
@@ -31,7 +31,8 @@ const Footer = () => {
             </form>
           </div>
         </div>
-        <span className="footerEnd">2025 Furniro. Created by Destiny</span>
+        <span className="footerEndLine"></span>
+        <Link className="footerEnd" to="https://destiny-portfolio.vercel.app/" target="blank">2025 Furniro. Created by Destiny</Link>
       </div>
     </footer>
   )
